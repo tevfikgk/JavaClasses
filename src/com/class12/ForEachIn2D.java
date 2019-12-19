@@ -16,6 +16,11 @@ public class ForEachIn2D {
 			{"milk", "egg" , "butter"}
 	
 		};	
+		for (int row=0; row<groceryList.length; row++) {
+			for (int col=0; col<groceryList[1].length; col++) {
+				System.out.print(groceryList[row][col]+" ");
+			}System.out.println();
+		}
 		
 		for (String singleGroceryList[] :groceryList) {
 			for(String arr : singleGroceryList) {

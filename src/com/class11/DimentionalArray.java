@@ -16,8 +16,8 @@ public static void main(String[] args) {
 	/*System.out.println(numbers [1][4]);
 	//number of row length*/
 	System.out.println(numbers.length);
-	/*number of column length
-	System.out.println(numbers[1].length);*/
+	/*number of column length*/
+	System.out.println(numbers[1].length);
 	
 	for (int i=0; i<numbers.length; i++) {
 		for (int j=0; j<numbers[i].length; j++) {

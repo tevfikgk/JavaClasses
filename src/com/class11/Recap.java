@@ -8,7 +8,7 @@ public class Recap {
 		
 		
 		String country[]= {"Turkey", "Irak", "Iran"};
-		for(String i:country) {
+		for(String i:country) {//************************************
 			
 			switch (i) {
 			
@@ -54,7 +54,7 @@ public class Recap {
 		System.out.println(car[i]);
 		} 
 		
-		for (String i:car) {
+		for (String i:car) {//***********************************************
 			System.out.println(i);
 		}
 		

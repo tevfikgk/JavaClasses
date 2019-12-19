@@ -13,9 +13,11 @@ public class ArrayAverageValue {
 		float average=0;
 		for (int row=0; row<box.length; row++) {
 			for(int col=0; col<box[row].length; col++){
-			average= average+box[row][col];	
-			}
-		}System.out.println(average/(box.length*box[1].length));
+			average= average+box[row][col];
+			System.out.print(box[row][col]+" ");
+			}System.out.println("");
+		}
+		System.out.println(average/(box.length*box[1].length));
 	}
 
 }
