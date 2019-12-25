@@ -12,7 +12,7 @@ public class FinallyBlock {
 		} 
 		catch(StringIndexOutOfBoundsException e){
 			e.printStackTrace();
-		}finally {
+		}finally {                        //it is a block that always be executed
 			System.out.println("I am a finally block");
 		}
 		System.out.println("End of the code");
